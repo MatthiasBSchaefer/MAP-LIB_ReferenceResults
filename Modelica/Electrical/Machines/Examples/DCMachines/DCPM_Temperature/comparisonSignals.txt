@@ -1,4 +1,0 @@
-time
-dcpm.la.i
-loadInertia.phi
-loadInertia.w

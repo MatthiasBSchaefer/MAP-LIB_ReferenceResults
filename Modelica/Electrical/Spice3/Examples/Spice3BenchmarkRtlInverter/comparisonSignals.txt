@@ -1,3 +1,0 @@
-time
-Q1.vbc
-Q1.vbe

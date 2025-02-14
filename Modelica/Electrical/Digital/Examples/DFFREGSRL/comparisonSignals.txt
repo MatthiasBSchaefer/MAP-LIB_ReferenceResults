@@ -1,3 +1,0 @@
-time
-dFFREGSRL.dataOut[1]
-dFFREGSRL.dataOut[2]

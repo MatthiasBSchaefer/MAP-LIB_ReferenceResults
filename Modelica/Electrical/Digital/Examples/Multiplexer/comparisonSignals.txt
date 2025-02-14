@@ -1,3 +1,0 @@
-time
-FF.RS1.TD1.x
-FF.RS2.TD1.x

@@ -1,4 +1,0 @@
-time
-IdealThyristor1.off
-IdealThyristor2.off
-booleanStep1.y

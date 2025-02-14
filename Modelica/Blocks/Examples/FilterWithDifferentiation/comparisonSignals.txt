@@ -1,4 +1,0 @@
-time
-Bessel.x[1]
-Bessel.x[2]
-Bessel.x[3]

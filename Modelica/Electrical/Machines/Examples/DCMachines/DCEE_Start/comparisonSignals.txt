@@ -1,5 +1,0 @@
-time
-dcee.airGapDC.psi_e
-dcee.la.i
-loadInertia.phi
-loadInertia.w

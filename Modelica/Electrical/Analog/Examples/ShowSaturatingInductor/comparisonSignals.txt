@@ -1,3 +1,0 @@
-time
-Inductance1.i
-SaturatingInductance1.Psi

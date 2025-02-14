@@ -1,4 +1,0 @@
-time
-controller.x
-evaporator.V_l
-evaporator.p

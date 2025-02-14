@@ -1,3 +1,0 @@
-time
-sample1.y[1]
-sample1.y[2]

@@ -1,5 +1,0 @@
-time
-prismatic.s
-prismatic.v
-revolute.phi
-revolute.w

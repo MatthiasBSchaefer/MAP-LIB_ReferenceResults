@@ -1,4 +1,0 @@
-time
-uniformDensity_y
-normalDensity_y
-weibullDensity_y

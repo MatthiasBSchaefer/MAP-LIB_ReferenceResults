@@ -1,5 +1,0 @@
-time
-vLV.y
-iLV.y
-vHV.y
-iHV.y

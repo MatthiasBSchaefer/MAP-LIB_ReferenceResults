@@ -1,4 +1,0 @@
-time
-basicTransformer.i1
-basicTransformer.i2
-inductor22.i

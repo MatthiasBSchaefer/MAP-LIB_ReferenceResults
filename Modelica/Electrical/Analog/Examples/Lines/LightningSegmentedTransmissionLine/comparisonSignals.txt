@@ -1,4 +1,0 @@
-time
-source.i
-load.i
-lightningImpulseCurrent.v

@@ -1,5 +1,0 @@
-time
-Adder.AND.G2.x
-Adder.AND.G2.y
-Adder.XOR.G2.x
-Adder.XOR.G2.y

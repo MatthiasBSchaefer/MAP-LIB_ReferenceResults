@@ -1,4 +1,0 @@
-time
-heatCapacitor.T
-pipe.T
-speed.phi

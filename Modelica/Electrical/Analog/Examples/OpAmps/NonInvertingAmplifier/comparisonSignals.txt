@@ -1,3 +1,0 @@
-time
-buffer.opAmp.out.v
-buffer.opAmp.out.i

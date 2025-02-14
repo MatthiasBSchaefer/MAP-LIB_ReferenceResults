@@ -1,3 +1,0 @@
-time
-assignClock1.y[1]
-assignClock1.y[2]

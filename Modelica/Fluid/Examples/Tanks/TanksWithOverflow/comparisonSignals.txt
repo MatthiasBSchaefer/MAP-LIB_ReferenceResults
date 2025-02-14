@@ -1,6 +1,0 @@
-time
-lowerTank.level
-lowerTank.medium.h
-upperTank.level
-upperTank.medium.h
-hysteresis.y

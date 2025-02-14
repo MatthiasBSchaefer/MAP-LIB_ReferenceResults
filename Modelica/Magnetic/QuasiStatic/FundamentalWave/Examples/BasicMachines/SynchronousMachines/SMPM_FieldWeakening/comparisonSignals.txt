@@ -1,5 +1,0 @@
-time
-fieldWeakeningController.vs
-fieldWeakeningController.is
-fieldWeakeningController.id
-fieldWeakeningController.iq

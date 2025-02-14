@@ -1,3 +1,0 @@
-time
-gain.opAmp.out.v
-gain.opAmp.out.i

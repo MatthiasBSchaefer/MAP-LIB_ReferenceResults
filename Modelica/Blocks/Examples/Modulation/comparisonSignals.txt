@@ -1,6 +1,0 @@
-time
-sine.y
-sinAM.y
-cosAM.y
-sinFM.y
-cosFM.y

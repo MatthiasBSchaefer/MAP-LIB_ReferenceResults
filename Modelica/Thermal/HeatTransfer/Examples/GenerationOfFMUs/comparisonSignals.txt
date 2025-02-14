@@ -1,4 +1,0 @@
-time
-capacitor3a.T
-capacitor3b.T
-directCapacity.heatCapacitor.T

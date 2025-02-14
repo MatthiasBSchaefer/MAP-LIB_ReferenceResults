@@ -1,3 +1,0 @@
-time
-accelerate.s
-accelerate.v

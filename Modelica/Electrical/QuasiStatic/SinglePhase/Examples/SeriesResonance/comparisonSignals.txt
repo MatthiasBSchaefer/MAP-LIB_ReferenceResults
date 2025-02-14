@@ -1,2 +1,0 @@
-time
-inductor.pin_p.reference.gamma

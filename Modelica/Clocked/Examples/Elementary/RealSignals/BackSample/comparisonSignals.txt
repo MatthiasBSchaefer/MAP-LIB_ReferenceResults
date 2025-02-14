@@ -1,4 +1,0 @@
-time
-sample1.y
-shiftSample1.y
-backSample1.y

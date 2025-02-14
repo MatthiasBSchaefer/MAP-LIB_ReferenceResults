@@ -1,3 +1,0 @@
-time
-imcQS.rotorCage.port_p.reference.gamma
-speed.phi

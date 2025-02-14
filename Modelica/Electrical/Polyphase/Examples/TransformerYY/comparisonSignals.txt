@@ -1,3 +1,0 @@
-time
-transformerL.inductor[2].i
-transformerL.inductor[3].i

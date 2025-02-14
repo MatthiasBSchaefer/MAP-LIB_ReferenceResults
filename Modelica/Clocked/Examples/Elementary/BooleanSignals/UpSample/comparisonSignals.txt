@@ -1,4 +1,0 @@
-time
-upSample1.y
-upSample2.y
-and1.y

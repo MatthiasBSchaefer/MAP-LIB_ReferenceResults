@@ -1,5 +1,0 @@
-time
-success1
-success2
-success3
-success4

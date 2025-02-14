@@ -1,5 +1,0 @@
-time
-heatCapacitor.T
-innerPipe.T
-outerPipe.T
-pipe1.T

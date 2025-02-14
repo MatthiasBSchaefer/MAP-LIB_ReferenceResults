@@ -1,5 +1,0 @@
-time
-filter.x[1]
-filter.x[2]
-load.phi
-load.w

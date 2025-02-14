@@ -1,6 +1,0 @@
-time
-controlBus.realSignal1
-controlBus.integerSignal
-controlBus.booleanSignal
-controlBus.subControlBus.myRealSignal
-controlBus.subControlBus.myBooleanSignal

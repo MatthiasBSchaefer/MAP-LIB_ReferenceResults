@@ -1,4 +1,0 @@
-time
-volume.medium.p
-volume.medium.Xi[1]
-volume.medium.T

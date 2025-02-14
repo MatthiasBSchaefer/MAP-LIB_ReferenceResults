@@ -1,8 +1,0 @@
-time
-inertiaLoad.phi
-inertiaLoad.w
-inertiaLoadQS.phi
-inertiaLoadQS.w
-dqToThreePhase.y[1]
-dqToThreePhase.y[2]
-dqToThreePhase.y[3]

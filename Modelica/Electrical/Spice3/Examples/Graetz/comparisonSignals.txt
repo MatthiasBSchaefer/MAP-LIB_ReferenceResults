@@ -1,3 +1,0 @@
-time
-D1.pin
-D3.n.v

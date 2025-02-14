@@ -1,3 +1,0 @@
-time
-Hw.x_scaled[1]
-Hw.x_scaled[2]

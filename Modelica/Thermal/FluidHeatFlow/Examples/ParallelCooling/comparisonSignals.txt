@@ -1,6 +1,0 @@
-time
-heatCapacitor1.T
-heatCapacitor2.T
-pipe1.T
-pipe2.T
-pipe3.T

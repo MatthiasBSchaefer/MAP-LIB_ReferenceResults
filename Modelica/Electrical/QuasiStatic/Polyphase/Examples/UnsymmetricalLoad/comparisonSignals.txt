@@ -1,3 +1,0 @@
-time
-resistor1_3.pin_p.reference.gamma
-resistor2_3.pin_p.reference.gamma

@@ -1,3 +1,0 @@
-time
-opAmp.v_out
-rootMeanSquare.mean.x

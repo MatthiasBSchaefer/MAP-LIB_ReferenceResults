@@ -1,8 +1,0 @@
-time
-wheelSet.der_theta1
-wheelSet.der_theta2
-wheelSet.phi
-wheelSet.theta1
-wheelSet.theta2
-wheelSet.x
-wheelSet.y

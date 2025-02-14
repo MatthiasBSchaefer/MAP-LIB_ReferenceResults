@@ -1,2 +1,0 @@
-time
-HeatCapacitor1.T

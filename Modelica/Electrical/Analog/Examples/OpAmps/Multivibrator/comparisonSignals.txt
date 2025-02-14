@@ -1,4 +1,0 @@
-time
-c.v
-opAmp.out.v
-opAmp.out.i

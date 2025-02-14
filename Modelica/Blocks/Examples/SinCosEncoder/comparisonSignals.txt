@@ -1,7 +1,0 @@
-time
-integrator.y
-der1.y
-cosB.phi
-cosBminus.phi
-sinA.phi
-sinAminus.phi

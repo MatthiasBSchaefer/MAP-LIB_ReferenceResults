@@ -1,3 +1,0 @@
-time
-multiSwitch1.y
-triggeredAdd.y

@@ -1,2 +1,0 @@
-time
-Mux2x1.out

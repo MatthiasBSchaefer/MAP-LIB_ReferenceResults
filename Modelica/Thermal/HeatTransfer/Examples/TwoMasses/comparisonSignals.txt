@@ -1,3 +1,0 @@
-time
-mass1.T
-mass2.T

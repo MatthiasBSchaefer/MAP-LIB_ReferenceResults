@@ -1,3 +1,0 @@
-time
-revolute1.phi
-revolute1.w

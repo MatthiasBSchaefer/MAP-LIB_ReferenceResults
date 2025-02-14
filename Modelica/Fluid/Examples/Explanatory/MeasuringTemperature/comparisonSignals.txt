@@ -1,4 +1,0 @@
-time
-T_onePort.T
-T_twoPort.T
-T_junction.T

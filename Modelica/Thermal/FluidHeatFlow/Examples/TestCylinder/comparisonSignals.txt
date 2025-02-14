@@ -1,6 +1,0 @@
-time
-cylinder1.H
-cylinder1.m
-cylinder2.H
-springDamper.s_rel
-springDamper.v_rel

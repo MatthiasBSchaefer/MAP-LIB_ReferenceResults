@@ -1,7 +1,0 @@
-time
-booleanTable.y
-integerTable.y
-start.on
-start.reset[1]
-stop.on
-stop.reset[1]

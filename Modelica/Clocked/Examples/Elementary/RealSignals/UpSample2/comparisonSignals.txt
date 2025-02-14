@@ -1,6 +1,0 @@
-time
-sample1.y
-upSample.y
-superSampleIpo.y
-FIR1.y
-FIR2.y

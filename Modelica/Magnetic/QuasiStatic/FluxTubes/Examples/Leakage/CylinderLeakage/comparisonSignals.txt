@@ -1,2 +1,0 @@
-time
-quarterCylinder1.port_p.reference.gamma
