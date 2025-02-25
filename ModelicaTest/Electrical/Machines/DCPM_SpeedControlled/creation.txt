@@ -1,9 +1,9 @@
 [ResultCreationLog]
-modelName = "ModelicaTest.Media.TestAllProperties.MoistAir"
+modelName = "ModelicaTest.Electrical.Machines.DCPM_SpeedControlled"
 
 // Test info
 generationTool = Dymola Version 2025x, 2025-01-15
-generationDateAndTime = 2025-02-11 00:45:09
+generationDateAndTime = 2025-02-11 00:43:18
 gitURL = https://github.com/modelica/ModelicaStandardLibrary
 gitRevision = a1abb9cc
 gitStatus = 
@@ -15,9 +15,9 @@ compiler = Microsoft Visual Studio 2022
 
 // Experiment settings (standardized annotation)
 StartTime = 0.0    // set by user or program default value
-StopTime = 0.1    // from experiment annotation
-Interval = 2e-05    // from experiment annotation
-Tolerance = 1e-06    // set by user or program default value
+StopTime = 1.0    // from experiment annotation
+Interval = 0.0001    // set by user or program default value
+Tolerance = 1e-06    // from experiment annotation
 
 // Experiment settings (tool specific)
 // The following lines can be used as mos-script in Dymola
@@ -39,10 +39,10 @@ experimentSetupOutput(
     onlyStopTime=false,
     debug=false);
 simulateModel(
-    problem="ModelicaTest.Media.TestAllProperties.MoistAir",
+    problem="ModelicaTest.Electrical.Machines.DCPM_SpeedControlled",
     startTime=0.0,
-    stopTime=0.1,
+    stopTime=1.0,
     method="Dassl",
     tolerance=1e-06,
     resultFile="result",
-    outputInterval=2e-05);
+    outputInterval=0.0001);

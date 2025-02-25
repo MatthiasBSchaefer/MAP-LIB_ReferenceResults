@@ -1,9 +1,9 @@
 [ResultCreationLog]
-modelName = "ModelicaTest.Media.TestAllProperties.MoistAir"
+modelName = "ModelicaTest.Tables.CombiTable2Dv.Test33"
 
 // Test info
 generationTool = Dymola Version 2025x, 2025-01-15
-generationDateAndTime = 2025-02-11 00:45:09
+generationDateAndTime = 2025-02-11 00:42:36
 gitURL = https://github.com/modelica/ModelicaStandardLibrary
 gitRevision = a1abb9cc
 gitStatus = 
@@ -14,9 +14,9 @@ testDescription =
 compiler = Microsoft Visual Studio 2022
 
 // Experiment settings (standardized annotation)
-StartTime = 0.0    // set by user or program default value
-StopTime = 0.1    // from experiment annotation
-Interval = 2e-05    // from experiment annotation
+StartTime = 0.0    // from experiment annotation
+StopTime = 14.0    // from experiment annotation
+Interval = 0.0028    // from experiment annotation
 Tolerance = 1e-06    // set by user or program default value
 
 // Experiment settings (tool specific)
@@ -39,10 +39,10 @@ experimentSetupOutput(
     onlyStopTime=false,
     debug=false);
 simulateModel(
-    problem="ModelicaTest.Media.TestAllProperties.MoistAir",
+    problem="ModelicaTest.Tables.CombiTable2Dv.Test33",
     startTime=0.0,
-    stopTime=0.1,
+    stopTime=14.0,
     method="Dassl",
     tolerance=1e-06,
     resultFile="result",
-    outputInterval=2e-05);
+    outputInterval=0.0028);

@@ -1,9 +1,9 @@
 [ResultCreationLog]
-modelName = "ModelicaTest.Media.TestAllProperties.MoistAir"
+modelName = "ModelicaTest.MultiBody.Frames.QuaternionFromT"
 
 // Test info
 generationTool = Dymola Version 2025x, 2025-01-15
-generationDateAndTime = 2025-02-11 00:45:09
+generationDateAndTime = 2025-02-11 00:45:48
 gitURL = https://github.com/modelica/ModelicaStandardLibrary
 gitRevision = a1abb9cc
 gitStatus = 
@@ -16,7 +16,7 @@ compiler = Microsoft Visual Studio 2022
 // Experiment settings (standardized annotation)
 StartTime = 0.0    // set by user or program default value
 StopTime = 0.1    // from experiment annotation
-Interval = 2e-05    // from experiment annotation
+Interval = 0.1    // set by user or program default value
 Tolerance = 1e-06    // set by user or program default value
 
 // Experiment settings (tool specific)
@@ -39,10 +39,10 @@ experimentSetupOutput(
     onlyStopTime=false,
     debug=false);
 simulateModel(
-    problem="ModelicaTest.Media.TestAllProperties.MoistAir",
+    problem="ModelicaTest.MultiBody.Frames.QuaternionFromT",
     startTime=0.0,
     stopTime=0.1,
     method="Dassl",
     tolerance=1e-06,
     resultFile="result",
-    outputInterval=2e-05);
+    outputInterval=0.1);
