@@ -1,28 +1,32 @@
 Log-file of program ./dymosim
-(generated: Tue May  5 02:13:57 2020)
+(generated: Thu Mar  6 08:34:41 2025)
 
 dymosim started
+... "Modelica.Fluid.Examples.Tanks.EmptyTanks" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "EmptyTanks.mat" creating (simulation result file)
+... "result.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 50
-   CPU-time for integration                : 0.113 seconds
-   CPU-time for one grid interval          : 0.0226 milliseconds
-   CPU-time for initialization             : 0 seconds
+   CPU-time for integration                : 0.033 seconds
+   CPU-time for one grid interval          : 0.0066 milliseconds
+   CPU-time for initialization             : 0.001 seconds
    Number of result points                 : 5006
    Number of grid points                   : 5001
-   Number of accepted steps                : 136
-   Number of f-evaluations (dynamics)      : 262
-   Number of crossing function evaluations : 5156
-   Number of Jacobian-evaluations          : 91
+   Number of accepted steps                : 120
+   Number of f-evaluations (dynamics)      : 231
+   Number of crossing function evaluations : 5133
+   Number of Jacobian-evaluations          : 78
    Number of model time events             : 0
    Number of input time events             : 0
    Number of state events                  : 2
    Number of step events                   : 0
-   Minimum integration stepsize            : 2.45e-10
-   Maximum integration stepsize            : 6.51
+   Minimum integration stepsize            : 8.66e-06
+   Maximum integration stepsize            : 5.53
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Fluid.Examples.Tanks.EmptyTanks

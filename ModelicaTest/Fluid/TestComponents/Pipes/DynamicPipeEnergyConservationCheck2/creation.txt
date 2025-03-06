@@ -1,15 +1,16 @@
 [ResultCreationLog]
-modelName = "Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_NoLoad"
+modelName = "ModelicaTest.Fluid.TestComponents.Pipes.DynamicPipeEnergyConservationCheck2"
 
 // Test info
 generationTool = Dymola Version 2025x, 2025-01-15
-generationDateAndTime = 2025-03-06 08:31:32
+generationDateAndTime = 2025-03-06 09:33:19
 gitURL = https://github.com/modelica/ModelicaStandardLibrary
 gitRevision = f8da34e3
-gitStatus = M Fluid/Examples/Tanks.mo
- M Fluid/Vessels.mo
- M Resources/Reference/Modelica/Electrical/Machines/Examples/SynchronousMachines/SMPM_NoLoad/comparisonSignals.txt
- M ../ModelicaTest/Media.mo
+gitStatus = M ../Modelica/Fluid/Examples/Tanks.mo
+ M ../Modelica/Fluid/Vessels.mo
+ M ../Modelica/Resources/Reference/Modelica/Electrical/Machines/Examples/SynchronousMachines/SMPM_NoLoad/comparisonSignals.txt
+ M Fluid/TestComponents/Pipes/DynamicPipeEnergyConservationCheck2.mo
+ M Media.mo
 testPC = LTXA320
 testOS = Windows [Version 10.0.19041]
 testUser = Matthias Schaefer
@@ -18,8 +19,8 @@ compiler = Microsoft Visual Studio 2022
 
 // Experiment settings (standardized annotation)
 StartTime = 0.0    // set by user or program default value
-StopTime = 0.32    // from experiment annotation
-Interval = 5e-05    // set by user or program default value
+StopTime = 500.0    // from experiment annotation
+Interval = 0.1    // from experiment annotation
 Tolerance = 1e-06    // set by user or program default value
 
 // Experiment settings (tool specific)
@@ -42,10 +43,10 @@ experimentSetupOutput(
     onlyStopTime=false,
     debug=false);
 simulateModel(
-    problem="Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_NoLoad",
+    problem="ModelicaTest.Fluid.TestComponents.Pipes.DynamicPipeEnergyConservationCheck2",
     startTime=0.0,
-    stopTime=0.32,
+    stopTime=500.0,
     method="Dassl",
     tolerance=1e-06,
     resultFile="result",
-    outputInterval=5e-05);
+    outputInterval=0.1);
