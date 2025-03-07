@@ -2,10 +2,10 @@
 modelName = "Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_NoLoad"
 
 // Test info
-generationTool = Dymola Version 2023x Refresh 1, 2023-04-12
-generationDateAndTime = 2024-09-27 08:37:54
+generationTool = Dymola Version 2025x, 2025-01-15
+generationDateAndTime = 2025-03-06 23:49:59
 gitURL = https://github.com/modelica/ModelicaStandardLibrary
-gitRevision = 4f119bb3
+gitRevision = 65e4e513
 gitStatus = 
 testPC = LTXA320
 testOS = Windows [Version 10.0.19041]
@@ -15,14 +15,13 @@ compiler = Microsoft Visual Studio 2022
 
 // Experiment settings (standardized annotation)
 StartTime = 0.0    // set by user or program default value
-StopTime = 0.04    // set by user or program default value
+StopTime = 0.32    // from experiment annotation
 Interval = 5e-05    // set by user or program default value
 Tolerance = 1e-06    // set by user or program default value
 
 // Experiment settings (tool specific)
 // The following lines can be used as mos-script in Dymola
 clearFlags();
-Advanced.PlaceDymolaSourceFirst=2;
 Advanced.HideDymosim := true;
 Advanced.PlaceDymolaSourceFirst := 2;
 Advanced.StoreProtectedVariables := true;
@@ -42,7 +41,7 @@ experimentSetupOutput(
 simulateModel(
     problem="Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_NoLoad",
     startTime=0.0,
-    stopTime=0.04,
+    stopTime=0.32,
     method="Dassl",
     tolerance=1e-06,
     resultFile="result",
