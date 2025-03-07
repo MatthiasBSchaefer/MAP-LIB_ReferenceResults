@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Thu Mar  6 09:33:19 2025)
+(generated: Fri Mar  7 00:54:29 2025)
 
 dymosim started
 ... "ModelicaTest.Fluid.TestComponents.Pipes.DynamicPipeEnergyConservationCheck2" simulating
@@ -12,7 +12,7 @@ Integration started at T = 0 using integration method DASSL
 Integration terminated successfully at T = 500
    CPU-time for integration                : 2.67 seconds
    CPU-time for one grid interval          : 0.534 milliseconds
-   CPU-time for initialization             : 0.004 seconds
+   CPU-time for initialization             : 0.003 seconds
    Number of result points                 : 5002
    Number of grid points                   : 5001
    Number of accepted steps                : 419

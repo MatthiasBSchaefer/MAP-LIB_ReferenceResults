@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Thu Mar  6 09:34:48 2025)
+(generated: Fri Mar  7 00:55:53 2025)
 
 dymosim started
 ... "ModelicaTest.Media.TestOnly.R134a_setState_phX" simulating
@@ -10,8 +10,8 @@ Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
 Integration terminated successfully at T = 1
-   CPU-time for integration                : 0.227 seconds
-   CPU-time for one grid interval          : 0.0454 milliseconds
+   CPU-time for integration                : 0.224 seconds
+   CPU-time for one grid interval          : 0.0448 milliseconds
    CPU-time for initialization             : 0.001 seconds
    Number of result points                 : 5004
    Number of grid points                   : 5001

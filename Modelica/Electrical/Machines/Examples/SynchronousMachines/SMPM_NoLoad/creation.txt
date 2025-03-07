@@ -3,13 +3,10 @@ modelName = "Modelica.Electrical.Machines.Examples.SynchronousMachines.SMPM_NoLo
 
 // Test info
 generationTool = Dymola Version 2025x, 2025-01-15
-generationDateAndTime = 2025-03-06 08:31:32
+generationDateAndTime = 2025-03-06 23:49:59
 gitURL = https://github.com/modelica/ModelicaStandardLibrary
-gitRevision = f8da34e3
-gitStatus = M Fluid/Examples/Tanks.mo
- M Fluid/Vessels.mo
- M Resources/Reference/Modelica/Electrical/Machines/Examples/SynchronousMachines/SMPM_NoLoad/comparisonSignals.txt
- M ../ModelicaTest/Media.mo
+gitRevision = 65e4e513
+gitStatus = 
 testPC = LTXA320
 testOS = Windows [Version 10.0.19041]
 testUser = Matthias Schaefer
