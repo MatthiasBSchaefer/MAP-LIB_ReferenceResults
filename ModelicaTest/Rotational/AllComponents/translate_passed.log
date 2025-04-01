@@ -1,24 +1,24 @@
 Translation of <a href="Modelica://ModelicaTest.Rotational.AllComponents">ModelicaTest.Rotational.AllComponents</a>
-The DAE has 586 scalar unknowns and 586 scalar equations.
+The DAE has 553 scalar unknowns and 553 scalar equations.
 
 Statistics
 
 Original Model
-  Number of components: 86
-  Variables: 874
+  Number of components: 79
+  Variables: 825
   Constants: 40 (40 scalars)
-  Parameters: 259 (274 scalars)
-  Unknowns: 575 (586 scalars)
-  Differentiated variables: 85 scalars
-  Equations: 517
-  Nontrivial: 417
+  Parameters: 243 (258 scalars)
+  Unknowns: 542 (553 scalars)
+  Differentiated variables: 79 scalars
+  Equations: 489
+  Nontrivial: 394
 Translated Model
-  Constants: 169 scalars
-  Free parameters: 155 scalars
-  Parameter depending: 39 scalars
-  Continuous time states: 32 scalars
-  Time-varying variables: 234 scalars
-  Alias variables: 303 scalars
+  Constants: 161 scalars
+  Free parameters: 145 scalars
+  Parameter depending: 38 scalars
+  Continuous time states: 31 scalars
+  Time-varying variables: 230 scalars
+  Alias variables: 277 scalars
   Number of mixed real/discrete systems of equations: 5
   Sizes of linear systems of equations: {5, 3, 12, 4, 10}
   Sizes after manipulation of the linear systems: {2, 0, 2, 0, 2}
@@ -59,7 +59,6 @@ Statically selected continuous time states
 <a href="Modelica://ModelicaTest.Rotational.AllComponents#text$position:w">position.w</a>
 <a href="Modelica://ModelicaTest.Rotational.AllComponents#text$speed:phi">speed.phi</a>
 <a href="Modelica://ModelicaTest.Rotational.AllComponents#text$speed:w">speed.w</a>
-<a href="Modelica://ModelicaTest.Rotational.AllComponents#text$speed2:phi">speed2.phi</a>
 <a href="Modelica://ModelicaTest.Rotational.AllComponents#text$springDamper:phi_rel">springDamper.phi_rel</a>
 <a href="Modelica://ModelicaTest.Rotational.AllComponents#text$springDamper:w_rel">springDamper.w_rel</a>
 Finished

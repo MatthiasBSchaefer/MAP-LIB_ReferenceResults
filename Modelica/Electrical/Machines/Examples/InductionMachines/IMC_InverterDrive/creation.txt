@@ -2,10 +2,10 @@
 modelName = "Modelica.Electrical.Machines.Examples.InductionMachines.IMC_InverterDrive"
 
 // Test info
-generationTool = Dymola Version 2023x Refresh 1, 2023-04-12
-generationDateAndTime = 2024-09-27 08:37:50
+generationTool = Dymola Version 2025x, 2025-01-15
+generationDateAndTime = 2025-03-10 23:54:30
 gitURL = https://github.com/modelica/ModelicaStandardLibrary
-gitRevision = 4f119bb3
+gitRevision = df28d425
 gitStatus = 
 testPC = LTXA320
 testOS = Windows [Version 10.0.19041]
@@ -22,7 +22,6 @@ Tolerance = 1e-07    // set by user or program default value
 // Experiment settings (tool specific)
 // The following lines can be used as mos-script in Dymola
 clearFlags();
-Advanced.PlaceDymolaSourceFirst=2;
 Advanced.HideDymosim := true;
 Advanced.PlaceDymolaSourceFirst := 2;
 Advanced.StoreProtectedVariables := true;
