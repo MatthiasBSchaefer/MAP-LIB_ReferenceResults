@@ -1,9 +1,8 @@
-﻿ = true
-Translation of ModelicaTest.Fluid.TestComponents.Vessels.TestSimpleTank:
+Translation of <a href="Modelica://ModelicaTest.Fluid.TestComponents.Vessels.TestSimpleTank">ModelicaTest.Fluid.TestComponents.Vessels.TestSimpleTank</a>
 The DAE has 153 scalar unknowns and 153 scalar equations.
- 
+
 Statistics
- 
+
 Original Model
   Number of components: 20
   Variables: 281
@@ -28,16 +27,16 @@ Translated Model
   Number of numerical Jacobians: 0
   Initialization problem
     Number of mixed real/discrete systems of equations: 1
-    Sizes of linear systems of equations: {2, 2, 2, 2}
-    Sizes after manipulation of the linear systems: {0, 0, 0, 0}
     Sizes of nonlinear systems of equations: {4}
     Sizes after manipulation of the nonlinear systems: {1}
+    Sizes of simplified homotopy nonlinear systems of equations: {4}
+    Sizes after manipulation of the simplified homotopy nonlinear systems: {1}
     Number of numerical Jacobians: 0
- 
+
 Settings
 Advanced.StoreProtectedVariables = true
 Selected continuous time states
 Statically selected continuous time states
-  tank.level
-  tank.medium.T
- 
+<a href="Modelica://ModelicaTest.Fluid.TestComponents.Vessels.TestSimpleTank#text$tank:level">tank.level</a>
+<a href="Modelica://ModelicaTest.Fluid.TestComponents.Vessels.TestSimpleTank#text$tank.medium:T">tank.medium.T</a>
+Finished
