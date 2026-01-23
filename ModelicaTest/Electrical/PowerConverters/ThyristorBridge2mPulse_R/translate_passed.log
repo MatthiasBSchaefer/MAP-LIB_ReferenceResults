@@ -1,0 +1,37 @@
+﻿ = true
+Translation of ModelicaTest.Electrical.PowerConverters.ThyristorBridge2mPulse_R:
+The DAE has 497 scalar unknowns and 497 scalar equations.
+ 
+Statistics
+ 
+Original Model
+  Number of components: 91
+  Variables: 690
+  Constants: 12 (12 scalars)
+  Parameters: 234 (276 scalars)
+  Unknowns: 444 (497 scalars)
+  Differentiated variables: 3 scalars
+  Equations: 301
+  Nontrivial: 264
+Translated Model
+  Constants: 168 scalars
+  Free parameters: 61 scalars
+  Parameter depending: 125 scalars
+  Continuous time states: 3 scalars
+  Time-varying variables: 123 scalars
+  Alias variables: 308 scalars
+  Number of mixed real/discrete systems of equations: 1
+  Sizes of linear systems of equations: {26}
+  Sizes after manipulation of the linear systems: {6}
+  Sizes of nonlinear systems of equations: { }
+  Sizes after manipulation of the nonlinear systems: { }
+  Number of numerical Jacobians: 0
+ 
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+  meanCurrent.x
+  meanVoltage.x
+  rootMeanSquareVoltage.mean.x
+ 

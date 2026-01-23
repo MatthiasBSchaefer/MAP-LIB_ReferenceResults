@@ -1,0 +1,10 @@
+CSV Compare Version 2.0.3.0 (Amd64)
+Comparison result file for c:\Projekte\MSL\ModelicaTest\Resources\Reference\ModelicaTest\Media\TestAllProperties\SimpleAir\SimpleAir.csv
+. Time:        2020-05-05T11:04:48.3904259+02:00
+. Operation:   CsvTreeCompare
+. Tolerance:   2e-3
+. Result:      failed
+. Biggest error: SimpleAir.err_h_is=>5.48431446405923E-12
+. Failed values:
+SimpleAir.s_is=>5.48431446405923E-12
+SimpleAir.err_h_is=>5.48431446405923E-12

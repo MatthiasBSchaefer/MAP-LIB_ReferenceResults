@@ -1,0 +1,6 @@
+CSV Compare Version 2.0.3.0 (Amd64)
+Comparison result file for c:\Projekte\MSL\ModelicaTest\Resources\Reference\ModelicaTest\Tables\CombiTimeTable\Test38\Test38.csv
+. Time:        2020-05-05T11:07:53.0310052+02:00
+. Operation:   CsvTreeCompare
+. Tolerance:   2e-3
+. Result:      passed

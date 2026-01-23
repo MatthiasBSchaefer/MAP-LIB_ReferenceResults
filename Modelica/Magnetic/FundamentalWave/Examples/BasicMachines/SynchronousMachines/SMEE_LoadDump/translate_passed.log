@@ -1,0 +1,52 @@
+﻿ = true
+Translation of Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_LoadDump:
+The DAE has 1076 scalar unknowns and 1076 scalar equations.
+ 
+Statistics
+ 
+Original Model
+  Number of components: 236
+  Variables: 1477
+  Constants: 9 (9 scalars)
+  Parameters: 452 (516 scalars)
+  Unknowns: 1016 (1076 scalars)
+  Differentiated variables: 24 scalars
+  Equations: 634
+  Nontrivial: 531
+Translated Model
+  Constants: 436 scalars
+  Free parameters: 81 scalars
+  Parameter depending: 203 scalars
+  Outputs: 1 scalars
+  Continuous time states: 8 scalars
+  Time-varying variables: 231 scalars
+  Alias variables: 650 scalars
+  Number of mixed real/discrete systems of equations: 3
+  Sizes of linear systems of equations: {32}
+  Sizes after manipulation of the linear systems: {5}
+  Sizes of nonlinear systems of equations: {48}
+  Sizes after manipulation of the nonlinear systems: {4}
+  Number of numerical Jacobians: 0
+  Initialization problem
+    Number of mixed real/discrete systems of equations: 3
+    Sizes of linear systems of equations: {2, 9, 7, 7, 23}
+    Sizes after manipulation of the linear systems: {2, 2, 2, 2, 5}
+ 
+Settings
+Advanced.StoreProtectedVariables = true
+Selected continuous time states
+Statically selected continuous time states
+  smee.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re
+  speed.phi
+  speed.w
+  voltageController.I.y
+ 
+Dynamically selected continuous time states
+There is one set of dynamic state selection.
+There are 4 states to be selected from:
+  loadInductor.inductor[2].i
+  loadInductor.inductor[3].i
+  smee.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im
+  smee.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re
+  smee.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im
+ 

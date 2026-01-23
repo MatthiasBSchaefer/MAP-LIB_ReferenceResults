@@ -1,0 +1,6 @@
+CSV Compare Version 2.0.3.0 (Amd64)
+Comparison result file for c:\Projekte\MSL\ModelicaTest\Resources\Reference\ModelicaTest\Rotational\TestBearingConversion\TestBearingConversion.csv
+. Time:        2020-05-05T11:07:03.5125112+02:00
+. Operation:   CsvTreeCompare
+. Tolerance:   2e-3
+. Result:      passed

@@ -1,0 +1,6 @@
+CSV Compare Version 2.0.3.0 (Amd64)
+Comparison result file for c:\Projekte\MSL\Modelica\Resources\Reference\Modelica\Electrical\QuasiStatic\Polyphase\Examples\BalancingDelta\BalancingDelta.csv
+. Time:        2020-05-05T10:24:07.2874517+02:00
+. Operation:   CsvTreeCompare
+. Tolerance:   2e-3
+. Result:      passed
