@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Wed May 20 10:37:51 2026)
+
+dymosim started
+... "ModelicaTest.Electrical.PowerConverters.Examples.ACDC.RectifierCenterTapmPulse.ThyristorCenterTapmPulse_RLV_Characteristic" simulating
+... "dsin.txt" loading (dymosim input file)
+... "result.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 5.05
+   CPU-time for integration                : 0.446 seconds
+   CPU-time for one grid interval          : 0.0177 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 33836
+   Number of grid points                   : 25250
+   Number of accepted steps                : 120523
+   Number of f-evaluations (dynamics)      : 196672
+   Number of crossing function evaluations : 171143
+   Number of Jacobian-evaluations          : 61611
+   Number of model time events             : 757
+   Number of input time events             : 0
+   Number of state events                  : 4044
+   Number of step events                   : 0
+   Minimum integration stepsize            : 5.51e-11
+   Maximum integration stepsize            : 0.000361
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of ModelicaTest.Electrical.PowerConverters.Examples.ACDC.RectifierCenterTapmPulse.ThyristorCenterTapmPulse_RLV_Characteristic
