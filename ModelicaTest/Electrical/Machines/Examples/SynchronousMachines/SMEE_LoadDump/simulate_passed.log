@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Thu May 28 11:43:25 2026)
+(generated: Wed Jul  8 11:00:18 2026)
 
 dymosim started
 ... "ModelicaTest.Electrical.Machines.Examples.SynchronousMachines.SMEE_LoadDump" simulating
@@ -10,15 +10,15 @@ Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
 Integration terminated successfully at T = 4.05
-   CPU-time for integration                : 0.449 seconds
-   CPU-time for one grid interval          : 0.0111 milliseconds
+   CPU-time for integration                : 0.027 seconds
+   CPU-time for one grid interval          : 27 milliseconds
    CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 40513
-   Number of grid points                   : 40500
-   Number of accepted steps                : 800
-   Number of f-evaluations (dynamics)      : 1675
-   Number of crossing function evaluations : 41317
-   Number of Jacobian-evaluations          : 213
+   Number of result points                 : 15
+   Number of grid points                   : 2
+   Number of accepted steps                : 802
+   Number of f-evaluations (dynamics)      : 1680
+   Number of crossing function evaluations : 822
+   Number of Jacobian-evaluations          : 206
    Number of model time events             : 3
    Number of input time events             : 0
    Number of state events                  : 3
