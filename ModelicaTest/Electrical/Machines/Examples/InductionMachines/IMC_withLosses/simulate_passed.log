@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Wed Jul  8 11:00:04 2026)
+(generated: Wed Jul  8 14:51:54 2026)
 
 dymosim started
 ... "ModelicaTest.Electrical.Machines.Examples.InductionMachines.IMC_withLosses" simulating
@@ -9,29 +9,21 @@ dymosim started
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
-... Warning message from dymosim
-At time T = 6.278455e-01 in current integration interval
-T_interval = 0.000000e+00 ... 4.500000e+00
-a large amount of work has been expended
-(about 500 steps) in the integrator. Probably the communication
-interval is too large or the system is stiff.
-
-
 Integration terminated successfully at T = 4.6
-   CPU-time for integration                : 0.029 seconds
-   CPU-time for one grid interval          : 29 milliseconds
+   CPU-time for integration                : 0.637 seconds
+   CPU-time for one grid interval          : 0.0138 milliseconds
    CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 4
-   Number of grid points                   : 2
-   Number of accepted steps                : 2054
-   Number of f-evaluations (dynamics)      : 4794
-   Number of Jacobian-evaluations          : 471
+   Number of result points                 : 46002
+   Number of grid points                   : 46001
+   Number of accepted steps                : 2057
+   Number of f-evaluations (dynamics)      : 4796
+   Number of Jacobian-evaluations          : 477
    Number of model time events             : 1
    Number of input time events             : 0
    Number of state events                  : 0
    Number of step events                   : 0
-   Minimum integration stepsize            : 3.18e-06
-   Maximum integration stepsize            : 0.0105
+   Minimum integration stepsize            : 2.47e-10
+   Maximum integration stepsize            : 0.0138
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)

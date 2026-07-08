@@ -3,7 +3,7 @@ modelName = "ModelicaTest.Electrical.Machines.Examples.InductionMachines.IMC_wit
 
 // Test info
 generationTool = Dymola Version 2025x, 2025-01-15
-generationDateAndTime = 2026-07-08 11:00:04
+generationDateAndTime = 2026-07-08 14:51:54
 gitURL = https://github.com/Modelica/ModelicaStandardLibrary/
 gitRevision = 37400019
 gitStatus = 

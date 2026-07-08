@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Wed Jul  8 10:59:33 2026)
+(generated: Wed Jul  8 14:51:17 2026)
 
 dymosim started
 ... "ModelicaTest.Electrical.Machines.Examples.InductionMachines.IMC_YDarc" simulating
@@ -9,24 +9,16 @@ dymosim started
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
-... Warning message from dymosim
-At time T = 2.082953e-01 in current integration interval
-T_interval = 0.000000e+00 ... 2.000000e+00
-a large amount of work has been expended
-(about 500 steps) in the integrator. Probably the communication
-interval is too large or the system is stiff.
-
-
 Integration terminated successfully at T = 2.07
-   CPU-time for integration                : 0.269 seconds
-   CPU-time for one grid interval          : 269 milliseconds
-   CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 15
-   Number of grid points                   : 2
-   Number of accepted steps                : 8420
-   Number of f-evaluations (dynamics)      : 32659
-   Number of crossing function evaluations : 8455
-   Number of Jacobian-evaluations          : 8115
+   CPU-time for integration                : 0.643 seconds
+   CPU-time for one grid interval          : 0.0311 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 20711
+   Number of grid points                   : 20701
+   Number of accepted steps                : 8818
+   Number of f-evaluations (dynamics)      : 34240
+   Number of crossing function evaluations : 29535
+   Number of Jacobian-evaluations          : 8507
    Number of model time events             : 3
    Number of input time events             : 0
    Number of state events                  : 3
