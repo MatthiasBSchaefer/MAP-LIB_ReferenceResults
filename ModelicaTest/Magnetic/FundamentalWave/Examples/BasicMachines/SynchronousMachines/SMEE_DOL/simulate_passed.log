@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Tue Jun  2 12:10:42 2026)
+(generated: Wed Jul  8 10:34:54 2026)
 
 dymosim started
 ... "ModelicaTest.Magnetic.FundamentalWave.Examples.BasicMachines.SynchronousMachines.SMEE_DOL" simulating
@@ -9,12 +9,20 @@ dymosim started
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
+... Warning message from dymosim
+At time T = 1.570454e-01 in current integration interval
+T_interval = 0.000000e+00 ... 5.000000e-01
+a large amount of work has been expended
+(about 500 steps) in the integrator. Probably the communication
+interval is too large or the system is stiff.
+
+
 Integration terminated successfully at T = 2.05
-   CPU-time for integration                : 0.107 seconds
-   CPU-time for one grid interval          : 0.00522 milliseconds
-   CPU-time for initialization             : 0 seconds
-   Number of result points                 : 20506
-   Number of grid points                   : 20500
+   CPU-time for integration                : 0.013 seconds
+   CPU-time for one grid interval          : 13 milliseconds
+   CPU-time for initialization             : 0.001 seconds
+   Number of result points                 : 8
+   Number of grid points                   : 2
    Number of accepted steps                : 6608
    Number of f-evaluations (dynamics)      : 13173
    Number of Jacobian-evaluations          : 59
@@ -23,7 +31,7 @@ Integration terminated successfully at T = 2.05
    Number of state events                  : 0
    Number of step events                   : 0
    Minimum integration stepsize            : 9.35e-09
-   Maximum integration stepsize            : 0.000459
+   Maximum integration stepsize            : 0.000335
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)

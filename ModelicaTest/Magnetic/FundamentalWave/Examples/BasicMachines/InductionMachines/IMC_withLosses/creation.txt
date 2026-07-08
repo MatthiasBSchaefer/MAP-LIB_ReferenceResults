@@ -3,11 +3,10 @@ modelName = "ModelicaTest.Magnetic.FundamentalWave.Examples.BasicMachines.Induct
 
 // Test info
 generationTool = Dymola Version 2025x, 2025-01-15
-generationDateAndTime = 2026-06-02 12:10:55
+generationDateAndTime = 2026-07-08 10:34:18
 gitURL = https://github.com/Modelica/ModelicaStandardLibrary/
 gitRevision = 8ebe5ef1
-gitStatus =  M ../Modelica/Resources/BuildProjects/CMake/options.cmake
-
+gitStatus = 
 testPC = LTXA320
 testOS = Windows [Version 10.0.19045]
 testUser = Matthias Schaefer
@@ -15,9 +14,9 @@ testDescription = ModelicaTest.Magnetic.FundamentalWave from #4789
 compiler = Microsoft Visual Studio 2022
 
 // Experiment settings (standardized annotation)
-StartTime = 0.0    // set by user or program default value
+StartTime = 0.0    // from experiment annotation
 StopTime = 4.6    // from experiment annotation
-Interval = 0.00010000217396030347    // set by user or program default value
+Interval = 0.0001    // from experiment annotation
 Tolerance = 1e-06    // from experiment annotation
 
 // Experiment settings (tool specific)
@@ -28,7 +27,7 @@ openModel("C:\Program Files\Dymola 2025x Refresh 1\Modelica\Library\ModelicaServ
 openModel("C:\Program Files\Dymola 2025x Refresh 1\Modelica\Library\ModelManagement 1.4.1\package.moe",true, false);
 ModelManagement.Structure.AST.Misc.EraseClasses({"Modelica"});
 openModel("D:\MSL_Nightly\Tests\ModelicaStandardLibrary\Modelica\package.mo",true,true);
-Advanced.HideDymosim := true;
+openModel("D:\MSL_Nightly\Tests\ModelicaStandardLibrary\ModelicaTest\package.mo",true,true);Advanced.HideDymosim := true;
 Advanced.PlaceDymolaSourceFirst := 2;
 Advanced.StoreProtectedVariables := true;
 SetDymolaCompiler("vs", {"CCompiler=MSVC","MSVCDir=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build"});
@@ -51,4 +50,4 @@ simulateModel(
     method="Dassl",
     tolerance=1e-06,
     resultFile="result",
-    outputInterval=0.00010000217396030347);
+    outputInterval=0.0001);
