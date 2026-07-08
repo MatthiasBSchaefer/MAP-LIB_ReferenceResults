@@ -3,7 +3,7 @@ modelName = "ModelicaTest.Magnetic.FundamentalWave.Examples.BasicMachines.Synchr
 
 // Test info
 generationTool = Dymola Version 2025x, 2025-01-15
-generationDateAndTime = 2026-07-08 10:34:54
+generationDateAndTime = 2026-07-08 14:31:18
 gitURL = https://github.com/Modelica/ModelicaStandardLibrary/
 gitRevision = 8ebe5ef1
 gitStatus = 
